@@ -162,8 +162,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Effect.cs" />
+    <Compile Include="Models\Flavor.cs" />
+    <Compile Include="Models\Photo.cs" />
     <Compile Include="Models\Strain.cs" />
-    <Compile Include="Models\StrainEffect.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -210,6 +211,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="IMG\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
